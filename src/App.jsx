@@ -29,11 +29,11 @@ const App = () => {
   };
 
   const toggleLang = () => {
-    setLang(prev => prev === 'en' ? 'zh' : 'en');
+    setLang((prev) => (prev === 'en' ? 'zh' : 'en'));
   };
 
   return (
-    <div className="min-h-screen font-sans text-black bg-white selection:bg-black selection:text-white flex flex-col">
+    <div className='min-h-screen font-sans text-black bg-white selection:bg-black selection:text-white flex flex-col'>
       <Navbar
         activeTab={activeTab}
         handleNav={handleNav}
@@ -45,8 +45,13 @@ const App = () => {
         t={t}
       />
 
-      <main className="flex-grow">
-        {activeTab === 'home' && <HomePage onNavigate={handleNav} t={t} />}
+      <main className='flex-grow'>
+        {activeTab === 'home' && (
+          <HomePage
+            onNavigate={handleNav}
+            t={t}
+          />
+        )}
         {activeTab === 'platform' && <PlatformPage t={t} />}
         {activeTab === 'assets' && <AssetsPage t={t} />}
         {activeTab === 'tech' && <TechPage t={t} />}

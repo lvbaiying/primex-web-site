@@ -9,12 +9,18 @@ import FadeIn from '../components/ui/FadeIn';
 const HomePage = ({ onNavigate, t }) => {
   return (
     <FadeIn>
-      <Hero onNavigate={onNavigate} t={t} />
+      <Hero
+        onNavigate={onNavigate}
+        t={t}
+      />
       <InfiniteLogoWall t={t} />
       <HomeOverview t={t} />
       <WhyTrusted t={t} />
       <EcosystemCollaboration t={t} />
-      <RoleBasedCTA onNavigate={onNavigate} t={t} />
+      <RoleBasedCTA
+        onNavigate={onNavigate}
+        t={t}
+      />
     </FadeIn>
   );
 };
