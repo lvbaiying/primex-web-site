@@ -1,4 +1,3 @@
-
 import AssetClasses from '../components/home/AssetClasses';
 import ComplianceSection from '../components/home/ComplianceSection';
 import EcosystemCollaboration from '../components/home/EcosystemCollaboration';

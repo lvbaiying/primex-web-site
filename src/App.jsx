@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Footer from './components/layout/Footer';
@@ -46,11 +45,7 @@ const App = () => {
       />
 
       <main className='flex-grow'>
-        {activeTab === 'home' && (
-          <HomePage
-            onNavigate={handleNav}
-          />
-        )}
+        {activeTab === 'home' && <HomePage onNavigate={handleNav} />}
         {activeTab === 'platform' && <PlatformPage />}
         {activeTab === 'products' && <ProductsPage />}
         {activeTab === 'transparency' && <TransparencyPage />}
