@@ -1,20 +1,21 @@
+
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import Footer from './components/layout/Footer';
 import Navbar from './components/layout/Navbar';
-import { translations } from './data/translations';
 import AboutPage from './pages/AboutPage';
-import AssetsPage from './pages/AssetsPage';
 import HomePage from './pages/HomePage';
+import NewsPage from './pages/NewsPage';
 import PlatformPage from './pages/PlatformPage';
+import ProductsPage from './pages/ProductsPage';
 import TechPage from './pages/TechPage';
+import TransparencyPage from './pages/TransparencyPage';
 
 const App = () => {
   const [activeTab, setActiveTab] = useState('home');
-  const [lang, setLang] = useState('zh');
+  const { i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-
-  const t = translations[lang];
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -29,7 +30,7 @@ const App = () => {
   };
 
   const toggleLang = () => {
-    setLang((prev) => (prev === 'en' ? 'zh' : 'en'));
+    i18n.changeLanguage(i18n.language === 'en' ? 'zh' : 'en');
   };
 
   return (
@@ -37,28 +38,28 @@ const App = () => {
       <Navbar
         activeTab={activeTab}
         handleNav={handleNav}
-        lang={lang}
+        lang={i18n.language}
         toggleLang={toggleLang}
         isMenuOpen={isMenuOpen}
         setIsMenuOpen={setIsMenuOpen}
         scrolled={scrolled}
-        t={t}
       />
 
       <main className='flex-grow'>
         {activeTab === 'home' && (
           <HomePage
             onNavigate={handleNav}
-            t={t}
           />
         )}
-        {activeTab === 'platform' && <PlatformPage t={t} />}
-        {activeTab === 'assets' && <AssetsPage t={t} />}
-        {activeTab === 'tech' && <TechPage t={t} />}
-        {activeTab === 'about' && <AboutPage t={t} />}
+        {activeTab === 'platform' && <PlatformPage />}
+        {activeTab === 'products' && <ProductsPage />}
+        {activeTab === 'transparency' && <TransparencyPage />}
+        {activeTab === 'news' && <NewsPage />}
+        {activeTab === 'tech' && <TechPage />}
+        {activeTab === 'about' && <AboutPage />}
       </main>
 
-      <Footer t={t} />
+      <Footer />
     </div>
   );
 };

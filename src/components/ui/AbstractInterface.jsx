@@ -22,7 +22,7 @@ const AbstractInterface = ({ t }) => (
         <div className='h-1/2 bg-zinc-900 text-white p-6 flex items-end justify-between shadow-md'>
           <div className='space-y-2'>
             <div className='text-xs text-zinc-500 uppercase tracking-wider'>
-              {t.common.abstract_interface.total_value_locked}
+              {t.common?.abstract_interface.total_value_locked}
             </div>
             <div className='text-3xl font-mono'>$124,500,000</div>
           </div>

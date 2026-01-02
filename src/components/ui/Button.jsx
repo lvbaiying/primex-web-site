@@ -1,22 +1,23 @@
-const Button = ({ children, variant = 'primary', className = '', onClick }) => {
-  const baseStyle =
-    'relative px-8 py-4 text-sm tracking-[0.1em] uppercase font-bold transition-all duration-300 flex items-center justify-center gap-3 group overflow-hidden border';
 
+
+const Button = ({ children, variant = 'primary', className = '', onClick }) => {
   const variants = {
-    primary:
-      'bg-black text-white border-black hover:bg-zinc-800 hover:border-zinc-800',
-    secondary:
-      'bg-white text-black border-black hover:bg-black hover:text-white',
-    outline: 'bg-transparent text-black border-zinc-300 hover:border-black',
-    link: 'px-0 py-2 text-black border-b border-black hover:opacity-60 justify-start rounded-none border-t-0 border-x-0',
+    primary: "bg-black text-white border border-black hover:bg-zinc-800",
+    secondary: "bg-white text-black border border-zinc-200 hover:border-black",
+    outline: "bg-transparent text-black border-b border-black hover:opacity-50 px-0 rounded-none h-auto py-1",
+    icon: "p-2 border border-zinc-200 rounded-full hover:bg-zinc-100 text-black px-2 py-2"
   };
 
+  const isOutline = variant === 'outline';
+  const isIcon = variant === 'icon';
+
   return (
-    <button
-      className={`${baseStyle} ${variants[variant]} ${className}`}
-      onClick={onClick}
-    >
-      <span className='relative z-10 flex items-center gap-2'>{children}</span>
+    <button className={`
+      ${isOutline ? 'text-sm font-bold uppercase tracking-widest' : isIcon ? '' : 'px-8 py-4 text-sm font-medium rounded-sm'}
+      transition-all duration-300 flex items-center justify-center gap-3 group
+      ${variants[variant]} ${className}
+    `} onClick={onClick}>
+      {children}
     </button>
   );
 };

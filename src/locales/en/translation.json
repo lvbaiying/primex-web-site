@@ -1,0 +1,264 @@
+
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "transparency": "Transparency",
+    "about": "About",
+    "news": "News",
+    "help": "Help",
+    "launch": "Launch App"
+  },
+  "hero": {
+    "tag": "Web3 Financial Infrastructure",
+    "title": "The Future of Real World Assets is Tokenized",
+    "desc": "PrimeX is a multi-chain RWA platform that tokenizes traditional financial assets with licensed exchanges like DIGIFT and Kraken, ensuring accurate pricing and reliable investments.",
+    "cta_primary": "Start Investing",
+    "cta_secondary": "View Assets",
+    "ticker_title": "Live Market Feed",
+    "compliance_check": "Compliance Check",
+    "kyc_verified": "KYC/AML Verified.\nWhitelist Approved."
+  },
+  "stats": {
+    "s1_val": 2.5, "s1_pre": "$", "s1_suf": "B+", "s1_label": "Asset Value Tokenized",
+    "s2_val": 15, "s2_pre": "", "s2_suf": "+", "s2_label": "Licensed Partners",
+    "s3_val": 5, "s3_pre": "", "s3_suf": "+", "s3_label": "Blockchain Networks",
+    "s4_val": 50, "s4_pre": "", "s4_suf": "K+", "s4_label": "Active Investors"
+  },
+  "assets_home": {
+    "title": "Diverse Asset Classes, One Platform",
+    "subtitle": "Institutional-grade opportunities.",
+    "c1_title": "Public Equities",
+    "c1_desc": "Tokenized shares of listed companies with real-time pricing from Kraken.",
+    "c1_meta": "Markets: US, HK, EU",
+    "c1_cta": "Explore Equities",
+    "c2_title": "Private Equity",
+    "c2_desc": "Access pre-IPO shares and private company equity via DIGIFT network.",
+    "c2_meta": "Min Investment: $1,000",
+    "c2_cta": "View Opportunities",
+    "c3_title": "Fixed Income",
+    "c3_desc": "Treasury bills and corporate bonds with daily yield distribution.",
+    "c3_meta": "Live APY: 5.2%",
+    "c3_cta": "Earn Now"
+  },
+  "compliance": {
+    "title": "Licensed & Compliant by Design",
+    "subtitle": "Partnering with regulated entities to ensure asset safety.",
+    "p1_name": "DIGIFT",
+    "p1_type": "Licensed RWA Exchange",
+    "p1_f1": "Pricing Data", "p1_f2": "Asset Origination", "p1_f3": "KYC/AML",
+    "p2_name": "Kraken",
+    "p2_type": "Crypto Equities Gateway",
+    "p2_f1": "Equities Liquidity", "p2_f2": "Regulated Trading", "p2_f3": "Fiat On/Off Ramp",
+    "p3_name": "OSL",
+    "p3_type": "Institutional Custody",
+    "p3_f1": "Asset Safety", "p3_f2": "Insurance", "p3_f3": "Segregated Wallets"
+  },
+  "tech": {
+    "title": "Multi-Chain for Maximum Accessibility",
+    "subtitle": "Unified liquidity layer.",
+    "f1_title": "Seamless Transfer", "f1_desc": "Cross-chain asset transfer without friction.",
+    "f2_title": "Lowest Gas Fees", "f2_desc": "Optimized routing via Layer 2 solutions.",
+    "f3_title": "Unified Dashboard", "f3_desc": "Manage portfolio across all chains in one view."
+  },
+  "transparency_home": {
+    "title": "Transparency at Every Step",
+    "subtitle": "Verify, don't trust.",
+    "t1_title": "Daily Asset Reports", "t1_desc": "Updated daily with detailed underlying asset breakdown.",
+    "t2_title": "Proof of Reserves", "t2_desc": "Real-time on-chain verification by third-party auditors.",
+    "t3_title": "Expert Panel", "t3_desc": "Industry experts with view-only access to reserves."
+  },
+  "cta_bottom": {
+    "title": "Start Your RWA Journey Today",
+    "subtitle": "Join 50,000+ investors tokenizing real-world assets.",
+    "btn1": "Launch App",
+    "btn2": "Contact Sales"
+  },
+  "footer": {
+    "prod": "Product",
+    "trans": "Transparency",
+    "comp": "Company",
+    "res": "Resources",
+    "legal": "Legal",
+    "connect": "Connect",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2025 PrimeX Global. All rights reserved.",
+    "items": {
+       "prod": { "xaum": "XAUm Token", "stbt": "STBT Token", "equity": "Equity Tokens", "private": "Private Equity" },
+       "trans": { "reports": "Asset Reports", "por": "Proof of Reserves", "panel": "Transparency Panel", "audits": "Audits" },
+       "comp": { "about": "About Us", "careers": "Careers", "news": "News", "contact": "Contact" },
+       "res": { "docs": "Docs", "api": "API", "help": "Help Center", "blog": "Blog" },
+       "legal": { "terms": "Terms of Service", "privacy": "Privacy Policy", "risk": "Risk Disclosure", "licenses": "Licenses" }
+    }
+  },
+  "about": {
+    "mission_title": "Our Mission",
+    "mission_desc": "Building the most trusted infrastructure for private markets.",
+    "team_title": "Built by Industry Veterans",
+    "roadmap_title": "12-Month Roadmap",
+    "contact_title": "Get in Touch",
+    "values_title": "Core Values",
+    "values_subtitle": "Principles that drive us.",
+    "val1": "Radical Transparency",
+    "val1_desc": "We believe in verification over trust. All assets are auditable on-chain.",
+    "val2": "Regulatory Compliance",
+    "val2_desc": "We don't cut corners. We embrace regulation to build long-term value.",
+    "val3": "Institutional Grade",
+    "val3_desc": "Security and reliability are non-negotiable. We build for scale."
+  },
+  "tech_page": {
+    "security_title": "Institutional-Grade Trust",
+    "security_subtitle": "Security & Privacy Infrastructure.",
+    "arch_title": "Technical Architecture",
+    "features_title": "Core Technologies",
+    "features_subtitle": "Built on advanced cryptographic primitives.",
+    "dev_title": "Developer Ready"
+  },
+  "cta_roles": {
+    "title": "Join the Future of Finance",
+    "subtitle": "Select your role to get started.",
+    "issuer_title": "I am an Issuer",
+    "issuer_desc": "Tokenize assets, raise capital globally, and manage investors effortlessly.",
+    "issuer_btn": "Start Issuance",
+    "investor_title": "I am an Investor",
+    "investor_desc": "Access institutional-grade private credit and equity with stablecoin settlement.",
+    "investor_btn": "View Marketplace",
+    "partner_title": "I am a Partner",
+    "partner_desc": "Integrate with our API to offer custody, data, or distribution services.",
+    "partner_btn": "Partner With Us"
+  },
+  "platform": {
+    "hero_title": "Full-Stack \nInfrastructure.",
+    "hero_desc": "PrimeX is more than a tokenization tool; it's a complete financial operating system. From structuring to lifecycle management.",
+    "problems_title": "Resolving Market Frictions",
+    "problems_subtitle": "Why we built PrimeX.",
+    "eff_title": "Efficiency",
+    "eff_desc": "T+0 Settlement via atomic swaps.",
+    "trans_title": "Transparency",
+    "trans_desc": "On-chain ownership and audit trails.",
+    "prog_title": "Programmability",
+    "prog_desc": "Automated compliance via smart contracts.",
+    "modules_title": "Product Modules",
+    "modules_subtitle": "Modular components for every stage."
+  },
+  "assets": {
+    "title": "Asset Marketplace",
+    "subtitle": "Curated, high-quality institutional assets.",
+    "disclosure_title": "Disclosure Framework",
+    "disclosure_subtitle": "The gold standard for transparency.",
+    "criteria_title": "Listing Criteria",
+    "pipeline_title": "Asset Pipeline",
+    "workflow_title": "Operational Workflow",
+    "compliance_title": "Compliance Mechanism"
+  },
+  "trusted": {
+    "title": "Built on Trust",
+    "subtitle": "The pillars of institutional adoption.",
+    "t1_title": "Compliance First",
+    "t1_desc": "Embedded Reg D/S rules, automated accredited investor verification (KYC/KYB) & AML checks ensure every transaction is legally compliant.",
+    "t2_title": "Bank-Grade Security",
+    "t2_desc": "Smart contracts audited by top-tier firms. Multi-sig & MPC key management technology eliminates single points of failure.",
+    "t3_title": "Privacy Preserved",
+    "t3_desc": "Zero-Knowledge Proofs (ZK) allow for 'verify without reveal' privacy, balancing regulatory transparency with business confidentiality."
+  },
+  "ecosystem": {
+    "title": "Ecosystem Collaboration",
+    "subtitle": "Powered by best-in-class partners.",
+    "custody": "Custody",
+    "custody_desc": "Qualified Custodians",
+    "fund_admin": "Fund Admin",
+    "fund_admin_desc": "NAV & Reporting",
+    "identity": "Identity",
+    "identity_desc": "KYC/KYB/AML",
+    "data": "Data",
+    "data_desc": "Oracles & Valuation",
+    "liquidity": "Liquidity",
+    "liquidity_desc": "Market Makers"
+  },
+  "partners": {
+    "label": "Trusted By Global Industry Leaders"
+  },
+  "products_page": {
+    "title": "Investment \nProducts",
+    "subtitle": "Institutional-grade real world assets, fully compliant and tokenized for 24/7 liquidity.",
+    "filters": { "all": "All", "public": "Public Equities", "private": "Private Equity", "fixed": "Fixed Income" },
+    "how_invest": "How to Invest",
+    "how_invest_sub": "Simple, secure, compliant.",
+    "steps": {
+      "kyc_title": "KYC/KYB", "kyc_desc": "Complete identity verification via Sumsub.",
+      "deposit_title": "Deposit", "deposit_desc": "Fund your wallet with USDC/USDT.",
+      "select_title": "Select", "select_desc": "Choose assets and sign subscription docs.",
+      "mint_title": "Mint", "mint_desc": "Receive tokens instantly in your wallet."
+    },
+    "faq_title": "Frequently Asked Questions",
+    "faqs": {
+      "q1": "Who can invest in PrimeX products?", "a1": "Accredited investors and qualified institutions who pass our KYC/KYB checks.",
+      "q2": "Are the assets segregated?", "a2": "Yes. All underlying assets are held in bankruptcy-remote SPVs or by regulated custodians.",
+      "q3": "What are the fees?", "a3": "We charge a 0.5% management fee annualized, deducted from the yield distributions."
+    },
+    "assets": {
+      "tbill_name": "US Treasury Bill", "tbill_desc": "Short-term US government debt obligations backed by the full faith and credit of the US government.",
+      "spacex_name": "SpaceX Equity", "spacex_desc": "Indirect ownership in SpaceX via SPV structure. Access pre-IPO growth potential.",
+      "tesla_name": "Tesla Tokenized", "tesla_desc": "1:1 backed tokenized shares of Tesla Inc. traded on regulated exchanges.",
+      "green_name": "Green Bond Fund", "green_desc": "A diversified portfolio of certified green bonds financing renewable energy projects.",
+      "gold_name": "Gold Paxos", "gold_desc": "Digital tokens backed by physical gold bars held in London vaults.",
+      "credit_name": "Private Credit Fund", "credit_desc": "Senior secured loans to middle-market technology companies."
+    }
+  },
+  "news_page": {
+    "title": "Newsroom",
+    "subtitle": "Latest updates, insights, and announcements.",
+    "read_article": "Read Article",
+    "read": "Read",
+    "stay_updated": "Stay Updated",
+    "subscribe_desc": "Get the latest RWA insights delivered to your inbox.",
+    "email_placeholder": "Enter your email",
+    "subscribe_btn": "Subscribe",
+    "items": {
+      "n1_title": "PrimeX Partners with DIGIFT to Tokenize $50M in US T-Bills", "n1_cat": "Press Release", "n1_desc": "A strategic partnership to bring high-quality, yield-bearing assets to the blockchain, enabling instant settlement for institutional investors.",
+      "n2_title": "Q3 2025 Market Report: The Rise of RWA", "n2_cat": "Industry Insight", "n2_desc": "Analysis of the growing trend of real-world asset tokenization and its impact on traditional finance.",
+      "n3_title": "PrimeX Secures SOC 2 Type II Certification", "n3_cat": "Company News", "n3_desc": "Demonstrating our commitment to the highest standards of security and data privacy.",
+      "n4_title": "Introducing PrimeX Launchpad v2.0", "n4_cat": "Product Update", "n4_desc": "New features including streamlined KYC, multi-wallet support, and enhanced portfolio analytics.",
+      "n5_title": "Panel Discussion: Future of Private Credit", "n5_cat": "Event", "n5_desc": "Join our CEO and industry leaders as they discuss the liquidity transformation in private credit markets."
+    }
+  },
+  "transparency_page": {
+    "hero_title": "Transparency is \nOur Foundation",
+    "hero_desc": "We believe in \"Don't Trust, Verify\". Access real-time proof of reserves, audit reports, and legal documentation.",
+    "reports_title": "Underlying Asset Reports",
+    "reports_subtitle": "Daily updated positions.",
+    "table_headers": { "date": "Date", "fund": "Asset Fund", "custodian": "Custodian", "value": "Total Value", "report": "Report" },
+    "download_pdf": "Download PDF",
+    "por_title": "Proof of Reserves",
+    "por_subtitle": "Chainlink Powered.",
+    "por_desc": "We utilize Chainlink Proof of Reserve (PoR) feeds to provide smart contracts with the data needed to calculate the true collateralization of any on-chain asset.",
+    "on_chain_supply": "On-Chain Supply",
+    "off_chain_reserves": "Off-Chain Reserves",
+    "oracle_address": "Oracle Address",
+    "live_feed": "Live Feed Status",
+    "last_update": "Last Update", "heartbeat": "Heartbeat", "deviation": "Deviation Threshold",
+    "panel_title": "Transparency Panel", "panel_subtitle": "Independent Oversight.",
+    "view_only": "View-only access granted",
+    "members": {
+      "sarah_role": "Risk Committee Chair", "sarah_firm": "Ex-BlackRock",
+      "james_role": "Lead Auditor", "james_firm": "Deloitte",
+      "elena_role": "Legal Counsel", "elena_firm": "Latham & Watkins"
+    }
+  },
+  "about_page": {
+    "backed_by": "Backed By Leading Investors",
+    "headquarters": "Headquarters",
+    "email": "Email",
+    "phases": {
+      "p1_time": "Foundation", "p1_c1": "Smart Contract Factory", "p1_c2": "Automated Onboarding",
+      "p2_time": "Liquidity", "p2_c1": "OTC Trading Desk", "p2_c2": "Atomic Swap Settlement",
+      "p3_time": "Advanced", "p3_c1": "ZK Privacy Layer", "p3_c2": "Portfolio Dashboard v2",
+      "p4_time": "Scale", "p4_c1": "Cross-chain Interoperability", "p4_c2": "Institutional API"
+    },
+    "stats": { "exp": "Years Exp", "pipeline": "Pipeline", "partners": "Partners", "compliance": "Compliance" },
+    "team_desc": "PrimeX is built by a cross-disciplinary team bridging the gap between TradFi and decentralized tech. Our core members bring decades of experience from top-tier investment banks, exchanges, and blockchain protocols.",
+    "tags": { "banking": "Global Banking", "law": "Securities Law", "systems": "Distributed Systems", "crypto": "Cryptography" },
+    "contact_text": "Interested in issuing or investing? Let's talk."
+  }
+}

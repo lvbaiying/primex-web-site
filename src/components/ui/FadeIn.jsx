@@ -1,40 +1,12 @@
-import { useEffect, useRef, useState } from 'react';
 
-// Hook: useOnScreen
-const useOnScreen = (options) => {
-  const ref = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
+import useOnScreen from '../../hooks/useOnScreen';
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        setIsVisible(true);
-        observer.disconnect();
-      }
-    }, options);
-
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
-
-    return () => {
-      if (ref.current) observer.unobserve(ref.current);
-    };
-  }, [ref, options]);
-
-  return [ref, isVisible];
-};
-
-// Component: FadeIn
-const FadeIn = ({ children, delay = 0, className = '' }) => {
+const FadeIn = ({ children, delay = 0, className = "" }) => {
   const [ref, isVisible] = useOnScreen({ threshold: 0.1 });
-
   return (
-    <div
-      ref={ref}
-      className={`transition-all duration-1000 ease-out transform ${
-        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-      } ${className}`}
+    <div 
+      ref={ref} 
+      className={`transition-all duration-1000 ease-out transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'} ${className}`}
       style={{ transitionDelay: `${delay}ms` }}
     >
       {children}
