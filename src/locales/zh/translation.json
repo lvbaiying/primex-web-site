@@ -264,6 +264,8 @@
       "a3": "我們收取 0.5% 的年化管理費，從收益分配中扣除。"
     },
     "assets": {
+      "pxai_name": "PrimeX xAI 代幣",
+      "pxai_desc": "通過開曼 SPC 直接獲取 xAI Corp 的股權敞口。機構級結構，Zedra 擔任受託人。",
       "tbill_name": "美國國庫券",
       "tbill_desc": "由美國政府完全信用擔保的短期政府債務。",
       "spacex_name": "SpaceX 股權",
@@ -372,5 +374,383 @@
       "crypto": "密碼學"
     },
     "contact_text": "有興趣發行或投資？請聯繫我們。"
+  },
+  "asset_detail_view": {
+    "unavailable": "該資產暫無詳細信息。",
+    "back": "返回",
+    "back_to_market": "返回市場",
+    "live": "進行中",
+    "offering_size": "發行規模",
+    "token_price": "代幣價格",
+    "min_invest": "起投額",
+    "closing": "截止日期",
+    "get_memo": "獲取發行備忘錄",
+    "sub_docs": "認購文件",
+    "interested": "感興趣？",
+    "contact_sales": "直接與我們的機構銷售團隊聯繫以了解分配情況。",
+    "contact_btn": "聯繫 PrimeX",
+    "exec_summary": "執行摘要",
+    "asset_profile": "底層資產概況",
+    "primary_asset": "主要資產",
+    "focus": "投資重點",
+    "status": "狀態",
+    "structure": "結構與所有權",
+    "investors": "投資者",
+    "part_shares": "參與股份",
+    "direct_equity": "直接股權",
+    "spc_label": "SPC",
+    "underlying_label": "底層資產",
+    "token_details": "代幣詳情",
+    "fee_structure": "費用結構",
+    "token_level": "代幣層級",
+    "spc_level": "底層 / SPC 層級",
+    "participants": "關鍵參與方",
+    "onboarding": "入職流程",
+    "onboarding_steps": {
+      "s1": "索取發行材料",
+      "s2": "KYC/AML 驗證",
+      "s3": "簽署認購文件",
+      "s4": "資金撥付與結算"
+    },
+    "data_room": "數據室",
+    "request": "申請",
+    "disclaimer_title": "重要免責聲明",
+    "disclaimer_text": "本材料僅供參考，不構成出售要約或購買任何證券的招攬。所述投資僅供符合條件的司法管轄區內的合格投資者使用。不保證流動性。參考估值和價格僅供參考，可能隨時變更。"
+  },
+  "assets_details": {
+    "pxai": {
+      "regulatorTags": ["CIMA 監管 SPC", "MAS 監管場所"],
+      "offeringSize": "~3000 萬美元",
+      "minInvestment": "1,000 美元",
+      "initialClosing": "待定",
+      "summary": [
+        "PrimeX 隆重推出一項開創性的數字證券發行：PrimeX xAI 投資代幣。該代幣代表開曼群島 CIMA 監管基金中獨立投資組合的參與股份所有權，該基金直接持有全球最具潛力的人工智能公司之一 xAI Corp. 的股權。",
+        "此次代幣化計劃是與 DigiFT（受新加坡 MAS 監管的交易所）合作進行的，將機構級私募市場敞口引入區塊鏈生態系統。",
+        "該結構採用具有參與股份的獨立投資組合公司 (SPC) 模式，並通過信託安排增強投資者保護和監管公信力。"
+      ],
+      "primaryAsset": "xAI Corp. 的股權頭寸，一家先進人 AI 研究公司。",
+      "investmentFocus": "人工智能和機器學習技術。",
+      "portfolioStatus": "專用獨立投資組合，通過信託安排增強投資者保護和監管公信力。",
+      "structurePoints": [
+        "開曼群島 CIMA 監管的獨立投資組合公司 (SPC) 的參與股份。",
+        "直接擁有 xAI Corp. 股權。",
+        "消除合成敞口模型中的交易對手風險。",
+        "真正的資產支持證券。"
+      ],
+      "tokenSpecs": {
+        "name": "PrimeX xAI 投資代幣",
+        "ticker": "PXAI",
+        "issuer": "PrimeX xAI Investment Ltd",
+        "ref_asset": "xAI Corp 股權",
+        "offering_size": "~3000 萬美元",
+        "ref_price": "80 美元/股",
+        "ref_val": "2650 億美元",
+        "token_price": "$1.00",
+        "min_inv": "1,000 美元",
+        "listing": "DigiFT 交易所",
+        "security_type": "代表 SPC 參與股份的數字資產"
+      },
+      "tokenSpecsLabels": {
+        "name": "名稱",
+        "ticker": "代碼",
+        "issuer": "發行人",
+        "ref_asset": "參考資產",
+        "offering_size": "發行規模",
+        "ref_price": "參考價格",
+        "ref_val": "參考估值",
+        "token_price": "代幣價格",
+        "min_inv": "起投額",
+        "listing": "上市場所",
+        "security_type": "證券類型"
+      },
+      "fees": {
+        "tokenLevel": [
+          { "label": "初始認購費", "val": "2%" },
+          { "label": "年度管理費", "val": "3%" }
+        ],
+        "spcLevel": [
+          { "label": "年度管理費", "val": "1.5%" },
+          { "label": "績效費", "val": "30%" }
+        ]
+      },
+      "participants": [
+        { "role": "發起人", "name": "PrimeX", "logo": "PX" },
+        { "role": "交易所夥伴", "name": "DigiFT", "logo": "DF" },
+        { "role": "受託人", "name": "Zedra", "logo": "ZD" },
+        { "role": "BVI 法律顧問", "name": "Ogier", "logo": "OG" },
+        { "role": "新加坡法律顧問", "name": "Fangda Partners", "logo": "FP" },
+        { "role": "發起人法律顧問", "name": "Grandway Law", "logo": "GL" }
+      ],
+      "documents": ["發行備忘錄", "認購協議", "推介材料", "法律意見書"]
+    },
+    "tbill": {
+      "regulatorTags": ["美國國債", "MAS 監管"],
+      "offeringSize": "5 億美元",
+      "minInvestment": "5,000 美元",
+      "initialClosing": "滾動",
+      "summary": [
+        "PrimeX T-Bill 代幣提供對短期美國國庫券的數字訪問。每個代幣都由受監管機構託管的真實世界國債 1:1 支持。",
+        "這種結構為投資者提供了一種安全、生息、高流動性和極低風險的工具。",
+        "與 DigiFT 合作管理，平台確保每日資產淨值 (NAV) 更新和無縫贖回。"
+      ],
+      "primaryAsset": "美國 3 個月國庫券",
+      "investmentFocus": "短期政府債務。",
+      "portfolioStatus": "完全由受監管託管的實物資產支持。",
+      "structurePoints": [
+        "1:1 美國國庫券支持。",
+        "每日透明度報告。",
+        "機構級託管。",
+        "持牌贖回網關。"
+      ],
+      "tokenSpecs": {
+        "name": "PrimeX T-Bill 代幣",
+        "ticker": "tBILL",
+        "issuer": "PrimeX Treasury SPC",
+        "ref_asset": "美國國債義務",
+        "offering_size": "5 億美元",
+        "ref_price": "100.00 美元",
+        "ref_val": "無",
+        "token_price": "$102.40",
+        "min_inv": "5,000 美元",
+        "listing": "DigiFT 交易所",
+        "security_type": "資產支持數字代幣"
+      },
+      "fees": {
+        "tokenLevel": [
+          { "label": "管理費", "val": "0.5%" },
+          { "label": "發行費", "val": "0.1%" }
+        ],
+        "spcLevel": [
+          { "label": "託管費", "val": "0.05%" },
+          { "label": "審計費", "val": "固定" }
+        ]
+      },
+      "participants": [
+        { "role": "發行人", "name": "PrimeX", "logo": "PX" },
+        { "role": "託管人", "name": "OSL", "logo": "OS" },
+        { "role": "交易所", "name": "DigiFT", "logo": "DF" }
+      ],
+      "documents": ["資產報告", "託管協議", "儲備證明"]
+    },
+    "spx": {
+      "regulatorTags": ["私募股權", "Pre-IPO"],
+      "offeringSize": "1 億美元",
+      "minInvestment": "10,000 美元",
+      "initialClosing": "2025 年 Q4",
+      "summary": [
+        "通過專用特殊目的載體 (SPV) 直接接觸 SpaceX。",
+        "SpaceX 是太空運輸和衛星通信領域的領導者，目前估值超過 2000 億美元。",
+        "代幣代表持有底層 SpaceX 股份的 SPV 的受益所有權。"
+      ],
+      "primaryAsset": "SpaceX 普通股股權",
+      "investmentFocus": "航空航天、衛星互聯網 (Starlink)、探索。",
+      "portfolioStatus": "直接持有 Pre-IPO 股份。",
+      "structurePoints": [
+        "通過德拉瓦/開曼 SPV 間接持股。",
+        "可傳遞完整投票權。",
+        "通過 Kraken 提供二級市場流動性。",
+        "季度估值更新。"
+      ],
+      "tokenSpecs": {
+        "name": "PrimeX SpaceX 股權代幣",
+        "ticker": "SPX",
+        "issuer": "PrimeX Equity SPV",
+        "ref_asset": "SpaceX 股份",
+        "offering_size": "1 億美元",
+        "ref_price": "98.50 美元",
+        "ref_val": "2100 億美元",
+        "token_price": "98.50 美元",
+        "min_inv": "10,000 美元",
+        "listing": "Kraken 交易所",
+        "security_type": "股權掛掛鉤數字代幣"
+      },
+      "fees": {
+        "tokenLevel": [
+          { "label": "績效提成", "val": "20%" },
+          { "label": "管理費", "val": "1%" }
+        ],
+        "spcLevel": [{ "label": "法律與稅務", "val": "實報實銷" }]
+      },
+      "participants": [
+        { "role": "管理人", "name": "PrimeX Capital", "logo": "PXC" },
+        { "role": "法律", "name": "Ogier", "logo": "OG" },
+        { "role": "二級市場", "name": "Kraken", "logo": "KR" }
+      ],
+      "documents": ["SPV 備忘錄", "合夥協議", "SpaceX 推介資料"]
+    },
+    "tsla": {
+      "regulatorTags": ["代幣化股權", "公開市場"],
+      "offeringSize": "無限制",
+      "minInvestment": "100 美元",
+      "initialClosing": "開放",
+      "summary": [
+        "特斯拉公司 (TSLA) 的 1:1 支持代幣化股份，可在受監管的數字資產交易所進行 24/7 交易。",
+        "每個代幣都由受監管託管人持有的 1 股 TSLA 股票作為抵押。",
+        "投資者直接通過智能合約獲得股息和公司行動收益。"
+      ],
+      "primaryAsset": "特斯拉公司 (NASDAQ: TSLA)",
+      "investmentFocus": "電動汽車、能源、人工智能。",
+      "portfolioStatus": "公開交易股權支持。",
+      "structurePoints": [
+        "直接 1:1 資產支持。",
+        "每日與託管人對賬。",
+        "實時結算。",
+        "股息傳遞。"
+      ],
+      "tokenSpecs": {
+        "name": "PrimeX 代幣化特斯拉",
+        "ticker": "TSLA",
+        "issuer": "PrimeX Securities Ltd",
+        "ref_asset": "TSLA 普通股",
+        "offering_size": "開放",
+        "ref_price": "245.20 美元",
+        "ref_val": "7800 億美元",
+        "token_price": "245.20 美元",
+        "min_inv": "100 美元",
+        "listing": "Kraken 交易所",
+        "security_type": "代幣化證券"
+      },
+      "fees": {
+        "tokenLevel": [
+          { "label": "交易費", "val": "0.1%" },
+          { "label": "贖回費", "val": "0.5%" }
+        ],
+        "spcLevel": []
+      },
+      "participants": [
+        { "role": "發行人", "name": "PrimeX", "logo": "PX" },
+        { "role": "託管人", "name": "盈透證券", "logo": "IB" }
+      ],
+      "documents": ["招股說明書", "每月審計", "服務條款"]
+    },
+    "grn": {
+      "regulatorTags": ["ESG", "固定收益"],
+      "offeringSize": "2 億美元",
+      "minInvestment": "1,000 美元",
+      "initialClosing": "每月",
+      "summary": [
+        "一個多元化的認證綠色債券組合，資助全球可再生能源項目和可持續基礎設施。",
+        "旨在獲得穩定回報，同時最大化環境影響。",
+        "所有底層債券均符合氣候債券標準 (CBS)。"
+      ],
+      "primaryAsset": "認證綠色債券",
+      "investmentFocus": "可再生能源、水資源管理、綠色建築。",
+      "portfolioStatus": "多元化債務組合。",
+      "structurePoints": [
+        "獨立投資組合模式。",
+        "季度影響報告。",
+        "每月收益分配。",
+        "獨立 ESG 認證。"
+      ],
+      "tokenSpecs": {
+        "name": "PrimeX 綠色債券代幣",
+        "ticker": "GRN",
+        "issuer": "PrimeX ESG Ltd",
+        "ref_asset": "全球綠色債券指數",
+        "offering_size": "2 億美元",
+        "ref_price": "10.00 美元",
+        "ref_val": "無",
+        "token_price": "10.05 美元",
+        "min_inv": "1,000 美元",
+        "listing": "DigiFT 交易所",
+        "security_type": "固定收益數字證券"
+      },
+      "fees": {
+        "tokenLevel": [{ "label": "管理費", "val": "0.75%" }],
+        "spcLevel": [{ "label": "ESG 審計費", "val": "固定" }]
+      },
+      "participants": [
+        { "role": "顧問", "name": "標普全球", "logo": "SP" },
+        { "role": "受託人", "name": "Zedra", "logo": "ZD" }
+      ],
+      "documents": ["影響報告", "債券招股書", "ESG 意見書"]
+    },
+    "paxg": {
+      "regulatorTags": ["大宗商品", "實物支持"],
+      "offeringSize": "無限制",
+      "minInvestment": "2,000 美元",
+      "initialClosing": "開放",
+      "summary": [
+        "Paxos Gold (PAXG) 是一種數字資產，每個代幣都由倫敦 Good Delivery 金庫中持有的 1 盎司實物黃金支持。",
+        "代幣代表對 Brink's 金庫中持有的實物黃金的法律所有權。",
+        "PrimeX 為機構配置 PAXG 提供受監管的門戶。"
+      ],
+      "primaryAsset": "實物金條",
+      "investmentFocus": "黃金、貴金屬。",
+      "portfolioStatus": "100% 實物支持。",
+      "structurePoints": [
+        "1:1 黃金支持。",
+        "可兌換實物黃金。",
+        "分配所有權。",
+        "保險覆蓋。"
+      ],
+      "tokenSpecs": {
+        "name": "Paxos Gold (PAXG)",
+        "ticker": "PAXG",
+        "issuer": "Paxos Trust Company",
+        "ref_asset": "黃金金條",
+        "offering_size": "無限制",
+        "ref_price": "2034.00 美元/盎司",
+        "ref_val": "無",
+        "token_price": "2034.00 美元",
+        "min_inv": "2,000 美元",
+        "listing": "Paxos / PrimeX",
+        "security_type": "資產支持代幣"
+      },
+      "fees": {
+        "tokenLevel": [{ "label": "交易費", "val": "0.02%" }],
+        "spcLevel": [{ "label": "倉儲費", "val": "已包含" }]
+      },
+      "participants": [
+        { "role": "發行人", "name": "Paxos", "logo": "PX" },
+        { "role": "審計師", "name": "Withum", "logo": "WT" }
+      ],
+      "documents": ["審計報告", "保險憑證", "金庫清單"]
+    },
+    "pcf": {
+      "regulatorTags": ["私募信貸", "高收益"],
+      "offeringSize": "3 億美元",
+      "minInvestment": "25,000 美元",
+      "initialClosing": "滾動",
+      "summary": [
+        "獲取對中型市場科技和服務公司的多元化高級擔保貸款組合。",
+        "目標淨回報率為高個位數或低雙位數。",
+        "所有貸款均為第一留置權，並由公司資產支持。"
+      ],
+      "primaryAsset": "高級擔保貸款",
+      "investmentFocus": "SaaS、醫療服務、科技基礎設施。",
+      "portfolioStatus": "活躍的信貸組合。",
+      "structurePoints": [
+        "開曼 SPC 結構。",
+        "季度利息支付。",
+        "90 天贖回窗口。",
+        "與公開市場相關性低。"
+      ],
+      "tokenSpecs": {
+        "name": "PrimeX 私募信貸代幣",
+        "ticker": "PCF",
+        "issuer": "PrimeX Credit Fund Ltd",
+        "ref_asset": "貸款組合",
+        "offering_size": "3 億美元",
+        "ref_price": "1.00 美元",
+        "ref_val": "無",
+        "token_price": "1.02 美元",
+        "min_inv": "25,000 美元",
+        "listing": "DigiFT 交易所",
+        "security_type": "私募信貸代幣"
+      },
+      "fees": {
+        "tokenLevel": [
+          { "label": "管理費", "val": "1.5%" },
+          { "label": "績效費", "val": "15%" }
+        ],
+        "spcLevel": [{ "label": "行政與稅務", "val": "實報實銷" }]
+      },
+      "participants": [
+        { "role": "投資管理人", "name": "PrimeX Capital", "logo": "PXC" },
+        { "role": "受託人", "name": "Zedra", "logo": "ZD" }
+      ],
+      "documents": ["基金備忘錄", "季度報告", "貸款摘要"]
+    }
   }
 }

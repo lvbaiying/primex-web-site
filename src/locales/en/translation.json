@@ -258,6 +258,8 @@
       "a3": "We charge a 0.5% management fee annualized, deducted from the yield distributions."
     },
     "assets": {
+      "pxai_name": "PrimeX xAI Token",
+      "pxai_desc": "Direct equity exposure to xAI Corp via a Cayman SPC. Institutional-grade structure with Zedra as Trustee.",
       "tbill_name": "US Treasury Bill",
       "tbill_desc": "Short-term US government debt obligations backed by the full faith and credit of the US government.",
       "spacex_name": "SpaceX Equity",
@@ -366,5 +368,396 @@
       "crypto": "Cryptography"
     },
     "contact_text": "Interested in issuing or investing? Let's talk."
+  },
+  "asset_detail_view": {
+    "unavailable": "Detail view not available for this asset.",
+    "back": "Back",
+    "back_to_market": "Back to Marketplace",
+    "live": "Live",
+    "offering_size": "Offering Size",
+    "token_price": "Token Price",
+    "min_invest": "Min Invest",
+    "closing": "Closing",
+    "get_memo": "Get Offering Memo",
+    "sub_docs": "Subscription Docs",
+    "interested": "Interested?",
+    "contact_sales": "Speak directly with our institutional sales team about allocation.",
+    "contact_btn": "Contact PrimeX",
+    "exec_summary": "Executive Summary",
+    "asset_profile": "Underlying Asset Profile",
+    "primary_asset": "Primary Asset",
+    "focus": "Focus",
+    "status": "Status",
+    "structure": "Structure & Ownership",
+    "investors": "Investors",
+    "part_shares": "Participating Shares",
+    "direct_equity": "Direct Equity",
+    "spc_label": "SPC",
+    "underlying_label": "Underlying",
+    "token_details": "Token Details",
+    "fee_structure": "Fee Structure",
+    "token_level": "Token Level",
+    "spc_level": "Underlying / SPC Level",
+    "participants": "Key Participants",
+    "onboarding": "Onboarding Process",
+    "onboarding_steps": {
+      "s1": "Request Offering Materials",
+      "s2": "KYC/AML Verification",
+      "s3": "Sign Subscription Docs",
+      "s4": "Fund & Settlement"
+    },
+    "data_room": "Data Room",
+    "request": "Request",
+    "disclaimer_title": "Important Disclaimer",
+    "disclaimer_text": "This material is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any securities. The investments mentioned are available only to qualified investors in eligible jurisdictions. Liquidity is not guaranteed. Reference valuations and prices are for indicative purposes only and subject to change."
+  },
+  "assets_details": {
+    "pxai": {
+      "regulatorTags": ["CIMA-regulated SPC", "MAS-regulated venue"],
+      "offeringSize": "~$30 Million",
+      "minInvestment": "$1,000",
+      "initialClosing": "TBC",
+      "summary": [
+        "PrimeX proudly presents a groundbreaking digital securities offering: the PrimeX xAI Investment Token. This token represents ownership in participating shares of a segregated portfolio within a Cayman Islands CIMA-regulated fund that holds direct equity in xAI Corp., one of the most promising artificial intelligence companies globally.",
+        "This tokenization initiative is conducted in partnership with DigiFT (the MAS-regulated Singapore exchange), bringing institutional-grade private market exposure to the blockchain ecosystem.",
+        "The structure utilizes a Segregated Portfolio Company (SPC) model with participating shares, enhanced by a trust arrangement to ensure robust investor protection and regulatory credibility."
+      ],
+      "primaryAsset": "Equity position in xAI Corp., an advanced AI research company.",
+      "investmentFocus": "Artificial intelligence and machine learning technologies.",
+      "portfolioStatus": "Dedicated segregated portfolio with a trust arrangement to enhance investor protection and regulatory credibility.",
+      "structurePoints": [
+        "Participating shares in a Cayman Islands CIMA-regulated Segregated Portfolio Company (SPC).",
+        "Direct ownership of xAI Corp. equity.",
+        "Eliminates counterparty risk found in synthetic exposure models.",
+        "True asset-backed security."
+      ],
+      "tokenSpecs": {
+        "name": "PrimeX xAI Investment Token",
+        "ticker": "PXAI",
+        "issuer": "PrimeX xAI Investment Ltd",
+        "ref_asset": "xAI Corp Equity",
+        "offering_size": "~$30 Million",
+        "ref_price": "$80/share",
+        "ref_val": "$265bn",
+        "token_price": "$1.00",
+        "min_inv": "$1,000",
+        "listing": "DigiFT Exchange",
+        "security_type": "Digital asset representing participating shares in SPC"
+      },
+      "tokenSpecsLabels": {
+        "name": "Name",
+        "ticker": "Ticker",
+        "issuer": "Issuer",
+        "ref_asset": "Reference Asset",
+        "offering_size": "Offering Size",
+        "ref_price": "Reference Price",
+        "ref_val": "Reference Val",
+        "token_price": "Token Price",
+        "min_inv": "Min Investment",
+        "listing": "Listing Venue",
+        "security_type": "Security Type"
+      },
+      "fees": {
+        "tokenLevel": [
+          { "label": "Initial Subscription Fee", "val": "2%" },
+          { "label": "Annual Management Fee", "val": "3%" }
+        ],
+        "spcLevel": [
+          { "label": "Annual Management Fee", "val": "1.5%" },
+          { "label": "Performance Fee", "val": "30%" }
+        ]
+      },
+      "participants": [
+        { "role": "Sponsor", "name": "PrimeX", "logo": "PX" },
+        { "role": "Exchange Partner", "name": "DigiFT", "logo": "DF" },
+        { "role": "Trustee", "name": "Zedra", "logo": "ZD" },
+        { "role": "BVI Legal Counsel", "name": "Ogier", "logo": "OG" },
+        {
+          "role": "Singapore Counsel",
+          "name": "Fangda Partners",
+          "logo": "FP"
+        },
+        { "role": "Sponsor Counsel", "name": "Grandway Law", "logo": "GL" }
+      ],
+      "documents": [
+        "Offering Memorandum",
+        "Subscription Agreement",
+        "Teaser Deck",
+        "Legal Opinion"
+      ]
+    },
+    "tbill": {
+      "regulatorTags": ["US Treasury", "MAS Regulated"],
+      "offeringSize": "$500 Million",
+      "minInvestment": "$5,000",
+      "initialClosing": "Rolling",
+      "summary": [
+        "The PrimeX T-Bill Token offers digital access to short-term US Treasury Bills. Each token is 1:1 backed by real-world treasury obligations held in custody by regulated institutions.",
+        "This structure provides investors with a secure, yield-bearing instrument with high liquidity and minimal risk.",
+        "Managed in partnership with DigiFT, the platform ensures daily NAV updates and seamless redemption."
+      ],
+      "primaryAsset": "US 3-Month Treasury Bills",
+      "investmentFocus": "Short-term government debt obligations.",
+      "portfolioStatus": "Fully backed by physical assets in regulated custody.",
+      "structurePoints": [
+        "1:1 backing by US Treasury Bills.",
+        "Daily transparency reports.",
+        "Institutional-grade custody.",
+        "Licensed redemption gateway."
+      ],
+      "tokenSpecs": {
+        "name": "PrimeX T-Bill Token",
+        "ticker": "tBILL",
+        "issuer": "PrimeX Treasury SPC",
+        "ref_asset": "US Treasury Obligations",
+        "offering_size": "$500 Million",
+        "ref_price": "$100.00",
+        "ref_val": "N/A",
+        "token_price": "$102.40",
+        "min_inv": "$5,000",
+        "listing": "DigiFT Exchange",
+        "security_type": "Asset-backed digital token"
+      },
+      "fees": {
+        "tokenLevel": [
+          { "label": "Management Fee", "val": "0.5%" },
+          { "label": "Issuance Fee", "val": "0.1%" }
+        ],
+        "spcLevel": [
+          { "label": "Custodian Fee", "val": "0.05%" },
+          { "label": "Audit Fee", "val": "Fixed" }
+        ]
+      },
+      "participants": [
+        { "role": "Issuer", "name": "PrimeX", "logo": "PX" },
+        { "role": "Custodian", "name": "OSL", "logo": "OS" },
+        { "role": "Exchange", "name": "DigiFT", "logo": "DF" }
+      ],
+      "documents": ["Asset Report", "Custodian Agreement", "Proof of Reserve"]
+    },
+    "spx": {
+      "regulatorTags": ["Private Equity", "Pre-IPO"],
+      "offeringSize": "$100 Million",
+      "minInvestment": "$10,000",
+      "initialClosing": "Q4 2025",
+      "summary": [
+        "Direct exposure to SpaceX through a dedicated Special Purpose Vehicle (SPV).",
+        "SpaceX is a leader in space transportation and satellite communications, currently valued at over $200B.",
+        "Tokens represent beneficial ownership in the SPV that holds the underlying SpaceX shares."
+      ],
+      "primaryAsset": "SpaceX Common Equity",
+      "investmentFocus": "Aerospace, Satellite Internet (Starlink), Exploration.",
+      "portfolioStatus": "Direct equity holdings in pre-IPO shares.",
+      "structurePoints": [
+        "Indirect ownership via Delaware/Cayman SPV.",
+        "Full voting rights pass-through available.",
+        "Secondary market liquidity via Kraken.",
+        "Quarterly valuation updates."
+      ],
+      "tokenSpecs": {
+        "name": "PrimeX SpaceX Equity Token",
+        "ticker": "SPX",
+        "issuer": "PrimeX Equity SPV",
+        "ref_asset": "SpaceX Shares",
+        "offering_size": "$100 Million",
+        "ref_price": "$98.50",
+        "ref_val": "$210bn",
+        "token_price": "$98.50",
+        "min_inv": "$10,000",
+        "listing": "Kraken Exchange",
+        "security_type": "Equity-linked digital token"
+      },
+      "fees": {
+        "tokenLevel": [
+          { "label": "Carry / Performance", "val": "20%" },
+          { "label": "Admin Fee", "val": "1%" }
+        ],
+        "spcLevel": [{ "label": "Legal & Tax", "val": "Passthrough" }]
+      },
+      "participants": [
+        { "role": "Manager", "name": "PrimeX Capital", "logo": "PXC" },
+        { "role": "Legal", "name": "Ogier", "logo": "OG" },
+        { "role": "Secondary Market", "name": "Kraken", "logo": "KR" }
+      ],
+      "documents": ["SPV Memo", "LPA", "SpaceX Teaser"]
+    },
+    "tsla": {
+      "regulatorTags": ["Tokenized Equity", "Public"],
+      "offeringSize": "Unlimited",
+      "minInvestment": "$100",
+      "initialClosing": "Open",
+      "summary": [
+        "1:1 backed tokenized shares of Tesla Inc. (TSLA), enabling 24/7 trading on regulated digital asset exchanges.",
+        "Each token is collateralized by one share of TSLA stock held by a regulated custodian.",
+        "Investors receive dividends and corporate action benefits directly via smart contracts."
+      ],
+      "primaryAsset": "Tesla Inc. (NASDAQ: TSLA)",
+      "investmentFocus": "Electric Vehicles, Energy, AI.",
+      "portfolioStatus": "Publicly traded equity backing.",
+      "structurePoints": [
+        "Direct 1:1 asset backing.",
+        "Daily reconciliation with custodian.",
+        "Real-time settlement.",
+        "Dividend passthrough."
+      ],
+      "tokenSpecs": {
+        "name": "PrimeX Tokenized Tesla",
+        "ticker": "TSLA",
+        "issuer": "PrimeX Securities Ltd",
+        "ref_asset": "TSLA Common Stock",
+        "offering_size": "Open",
+        "ref_price": "$245.20",
+        "ref_val": "$780bn",
+        "token_price": "$245.20",
+        "min_inv": "$100",
+        "listing": "Kraken Exchange",
+        "security_type": "Tokenized Security"
+      },
+      "fees": {
+        "tokenLevel": [
+          { "label": "Trading Fee", "val": "0.1%" },
+          { "label": "Redemption Fee", "val": "0.5%" }
+        ],
+        "spcLevel": []
+      },
+      "participants": [
+        { "role": "Issuer", "name": "PrimeX", "logo": "PX" },
+        { "role": "Custodian", "name": "Interactive Brokers", "logo": "IB" }
+      ],
+      "documents": ["Prospectus", "Monthly Audit", "Terms of Service"]
+    },
+    "grn": {
+      "regulatorTags": ["ESG", "Fixed Income"],
+      "offeringSize": "$200 Million",
+      "minInvestment": "$1,000",
+      "initialClosing": "Monthly",
+      "summary": [
+        "A diversified portfolio of certified green bonds financing renewable energy projects and sustainable infrastructure globally.",
+        "Targeting steady returns while maximizing environmental impact.",
+        "All underlying bonds meet the Climate Bonds Standard (CBS)."
+      ],
+      "primaryAsset": "Certified Green Bonds",
+      "investmentFocus": "Renewable Energy, Water Management, Green Buildings.",
+      "portfolioStatus": "Diversified debt portfolio.",
+      "structurePoints": [
+        "Segregated portfolio model.",
+        "Impact reporting quarterly.",
+        "Monthly yield distribution.",
+        "Independent ESG certification."
+      ],
+      "tokenSpecs": {
+        "name": "PrimeX Green Bond Token",
+        "ticker": "GRN",
+        "issuer": "PrimeX ESG Ltd",
+        "ref_asset": "Global Green Bond Index",
+        "offering_size": "$200 Million",
+        "ref_price": "$10.00",
+        "ref_val": "N/A",
+        "token_price": "$10.05",
+        "min_inv": "$1,000",
+        "listing": "DigiFT Exchange",
+        "security_type": "Fixed-income Digital Security"
+      },
+      "fees": {
+        "tokenLevel": [{ "label": "Management Fee", "val": "0.75%" }],
+        "spcLevel": [{ "label": "ESG Audit Fee", "val": "Fixed" }]
+      },
+      "participants": [
+        { "role": "Advisor", "name": "S&P Global", "logo": "SP" },
+        { "role": "Trustee", "name": "Zedra", "logo": "ZD" }
+      ],
+      "documents": ["Impact Report", "Bond Prospectus", "ESG Opinion"]
+    },
+    "paxg": {
+      "regulatorTags": ["Commodity", "Physical"],
+      "offeringSize": "Unlimited",
+      "minInvestment": "$2,000",
+      "initialClosing": "Open",
+      "summary": [
+        "Paxos Gold (PAXG) is a digital asset where each token is backed by one fine troy ounce of a London Good Delivery gold bar.",
+        "Tokens represent legal ownership of physical gold held in Brink's vaults.",
+        "PrimeX provides a regulated gateway for institutional allocation into PAXG."
+      ],
+      "primaryAsset": "Physical Gold Bars",
+      "investmentFocus": "Gold, Precious Metals.",
+      "portfolioStatus": "100% physically backed.",
+      "structurePoints": [
+        "1:1 backing by Gold.",
+        "Redeemable for physical gold.",
+        "Allocated ownership.",
+        "Insurance covered."
+      ],
+      "tokenSpecs": {
+        "name": "Paxos Gold (PAXG)",
+        "ticker": "PAXG",
+        "issuer": "Paxos Trust Company",
+        "ref_asset": "Gold Bullion",
+        "offering_size": "Unlimited",
+        "ref_price": "$2034.00/oz",
+        "ref_val": "N/A",
+        "token_price": "$2034.00",
+        "min_inv": "$2,000",
+        "listing": "Paxos / PrimeX",
+        "security_type": "Asset-backed Token"
+      },
+      "fees": {
+        "tokenLevel": [{ "label": "Transaction Fee", "val": "0.02%" }],
+        "spcLevel": [{ "label": "Storage Fee", "val": "Included" }]
+      },
+      "participants": [
+        { "role": "Issuer", "name": "Paxos", "logo": "PX" },
+        { "role": "Auditor", "name": "Withum", "logo": "WT" }
+      ],
+      "documents": ["Audit Report", "Insurance Certificate", "Vault List"]
+    },
+    "pcf": {
+      "regulatorTags": ["Private Credit", "High Yield"],
+      "offeringSize": "$300 Million",
+      "minInvestment": "$25,000",
+      "initialClosing": "Rolling",
+      "summary": [
+        "Access to a diversified portfolio of senior secured loans to middle-market technology and services companies.",
+        "Targeting high single-digit or low double-digit net returns.",
+        "All loans are 1st lien and backed by company assets."
+      ],
+      "primaryAsset": "Senior Secured Loans",
+      "investmentFocus": "SaaS, Healthcare Services, Tech Infrastructure.",
+      "portfolioStatus": "Active credit portfolio.",
+      "structurePoints": [
+        "Cayman SPC structure.",
+        "Quarterly interest payout.",
+        "90-day redemption window.",
+        "Low correlation to public markets."
+      ],
+      "tokenSpecs": {
+        "name": "PrimeX Private Credit Token",
+        "ticker": "PCF",
+        "issuer": "PrimeX Credit Fund Ltd",
+        "ref_asset": "Loan Portfolio",
+        "offering_size": "$300 Million",
+        "ref_price": "$1.00",
+        "ref_val": "N/A",
+        "token_price": "$1.02",
+        "min_inv": "$25,000",
+        "listing": "DigiFT Exchange",
+        "security_type": "Private Credit Token"
+      },
+      "fees": {
+        "tokenLevel": [
+          { "label": "Management Fee", "val": "1.5%" },
+          { "label": "Performance Fee", "val": "15%" }
+        ],
+        "spcLevel": [{ "label": "Admin & Tax", "val": "Passthrough" }]
+      },
+      "participants": [
+        {
+          "role": "Investment Manager",
+          "name": "PrimeX Capital",
+          "logo": "PXC"
+        },
+        { "role": "Trustee", "name": "Zedra", "logo": "ZD" }
+      ],
+      "documents": ["Fund OM", "Quarterly Report", "Loan Summary"]
+    }
   }
 }

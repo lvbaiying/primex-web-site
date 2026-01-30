@@ -1,11 +1,5 @@
 import {
-   Briefcase,
-   ChevronDown,
-   CircleDollarSign,
-   Coins,
-   Landmark,
-   TrendingUp,
-   Zap,
+  ChevronDown
 } from 'lucide-react';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -14,95 +8,29 @@ import ProductCard from '../components/shared/ProductCard';
 import FadeIn from '../components/ui/FadeIn';
 import SectionHeading from '../components/ui/SectionHeading';
 
+import AssetDetailPage from '../components/products/AssetDetailPage';
+import { getAssets } from '../data/assets';
+
 const ProductsPage = () => {
   const [activeFilter, setActiveFilter] = useState('all');
+  const [selectedAsset, setSelectedAsset] = useState(null);
   const { t } = useTranslation();
 
-  const assets = [
-    {
-      id: 1,
-      name: t('products_page.assets.tbill_name'),
-      ticker: 'tBILL',
-      type: 'fixed',
-      apy: '5.2%',
-      tvl: '$1.2B',
-      price: '$102.40',
-      platform: 'DIGIFT',
-      desc: t('products_page.assets.tbill_desc'),
-      icon: <Landmark size={20} />,
-      hot: true,
-    },
-    {
-      id: 2,
-      name: t('products_page.assets.spacex_name'),
-      ticker: 'SPX',
-      type: 'private',
-      apy: 'N/A',
-      tvl: '$450M',
-      price: '$98.50',
-      platform: 'Kraken',
-      desc: t('products_page.assets.spacex_desc'),
-      icon: <Briefcase size={20} />,
-      hot: true,
-    },
-    {
-      id: 3,
-      name: t('products_page.assets.tesla_name'),
-      ticker: 'TSLA',
-      type: 'public',
-      apy: '0.0%',
-      tvl: '$120M',
-      price: '$245.20',
-      platform: 'Kraken',
-      desc: t('products_page.assets.tesla_desc'),
-      icon: <TrendingUp size={20} />,
-      hot: false,
-    },
-    {
-      id: 4,
-      name: t('products_page.assets.green_name'),
-      ticker: 'GRN',
-      type: 'fixed',
-      apy: '4.8%',
-      tvl: '$85M',
-      price: '$10.05',
-      platform: 'DIGIFT',
-      desc: t('products_page.assets.green_desc'),
-      icon: <Zap size={20} />,
-      hot: false,
-    },
-    {
-      id: 5,
-      name: t('products_page.assets.gold_name'),
-      ticker: 'PAXG',
-      type: 'fixed',
-      apy: '0.0%',
-      tvl: '$600M',
-      price: '$2034.00',
-      platform: 'Paxos',
-      desc: t('products_page.assets.gold_desc'),
-      icon: <Coins size={20} />,
-      hot: false,
-    },
-    {
-      id: 6,
-      name: t('products_page.assets.credit_name'),
-      ticker: 'PCF',
-      type: 'private',
-      apy: '11.5%',
-      tvl: '$200M',
-      price: '$1.02',
-      platform: 'DIGIFT',
-      desc: t('products_page.assets.credit_desc'),
-      icon: <CircleDollarSign size={20} />,
-      hot: true,
-    },
-  ];
+  const assets = getAssets(t);
 
   const filteredAssets =
     activeFilter === 'all'
       ? assets
       : assets.filter((a) => a.type === activeFilter);
+
+  if (selectedAsset) {
+    return (
+      <AssetDetailPage
+        asset={selectedAsset}
+        onBack={() => setSelectedAsset(null)}
+      />
+    );
+  }
 
   return (
     <div className='pt-32 pb-20 bg-white min-h-screen'>
@@ -143,7 +71,10 @@ const ProductsPage = () => {
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-32'>
           {filteredAssets.map((asset) => (
             <FadeIn key={asset.id}>
-              <ProductCard asset={asset} />
+              <ProductCard
+                asset={asset}
+                onClick={() => setSelectedAsset(asset)}
+              />
             </FadeIn>
           ))}
         </div>

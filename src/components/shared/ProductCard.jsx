@@ -1,7 +1,10 @@
 import { ArrowRight } from 'lucide-react';
 
-const ProductCard = ({ asset }) => (
-  <div className='group bg-white border border-zinc-200 hover:border-black transition-all duration-300 p-0 flex flex-col h-full relative hover:-translate-y-1 hover:shadow-xl'>
+const ProductCard = ({ asset, onClick }) => (
+  <div
+    onClick={onClick}
+    className='group bg-white border border-zinc-200 hover:border-black transition-all duration-300 p-0 flex flex-col h-full relative hover:-translate-y-1 hover:shadow-xl cursor-pointer'
+  >
     <div className='p-8 flex-grow'>
       <div className='flex justify-between items-start mb-6'>
         <div className='flex items-center gap-4'>
